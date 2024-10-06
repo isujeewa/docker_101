@@ -1,0 +1,6 @@
+docker build -t <image_name> .      // Build a Docker image from a Dockerfile in the current directory
+docker pull <image_name>            // Pull an image from Docker Hub
+docker push <image_name>            // Push an image to Docker Hub
+docker system prune                 // Remove unused Docker objects (containers, images, volumes, networks)
+docker version                      // Show Docker version information
+docker info                         // Display system-wide information about Docker

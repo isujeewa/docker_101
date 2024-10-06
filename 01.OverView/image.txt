@@ -1,0 +1,8 @@
+docker images                      // List all Docker images
+docker rmi <image_id_or_name>       // Remove a specific Docker image
+docker rmi -f <image_id_or_name>    // Force remove a Docker image
+docker rmi $(docker images -q)      // Delete all Docker images
+docker image prune                  // Remove all dangling images
+docker image prune -a               // Remove all unused images
+
+

@@ -1,0 +1,2 @@
+Overview:
+This repository provides a mini crash course on Docker, walking through the fundamental concepts of containerization using practical examples. It covers basic Docker commands, working with Dockerfiles, and important Docker features such as COPY, ADD, RUN, CMD, ENTRYPOINT, EXPOSE, VOLUME, and more. The repository includes sample Dockerfiles, step-by-step instructions, and commands to help you understand how to build, run, and manage Docker containers.
